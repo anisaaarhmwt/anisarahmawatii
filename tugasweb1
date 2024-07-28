@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile/Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .profile-header h2 {
+            margin: 0;
+            color: #555;
+        }
+        .profile-header p {
+            margin: 5px 0;
+            color: #777;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h3 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            color: #333;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="profile-header">
+            <img src="profile.jpg" alt="Profile Picture">
+            <div>
+                <h2>Anisa Rahmawati</h2>
+                <p>Email:anisarahmawati022008@gmail.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Location: City, Country</p>
+            </div>
+        </header>
+
+        <div class="section">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="section">
+            <h3>Education</h3>
+            <p>Bachelor of Science in Computer Science - University XYZ</p>
+            <p>Master of Science in Software Engineering - University ABC</p>
+        </div>
+
+        <div class="section">
+            <h3>Experience</h3>
+            <p>Software Developer at Company One (2015 - Present)</p>
+            <p>Junior Developer at Company Two (2013 - 2015)</p>
+        </div>
+
+        <div class="section">
+            <h3>Skills</h3>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>HTML & CSS</li>
+                <li>React & Node.js</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
